@@ -1,0 +1,145 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    background-color: #E5E5E5;
+
+}
+.navbar{
+background: linear-gradient(274.83deg, #5DB0DF 0.58%, #5D7ADF 74.3%);
+
+    padding: 10px 10%;
+    padding-bottom: 5%;
+}
+.navbar .list{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 40px;
+}
+.navbar .punchLine{
+    color: white;
+}
+.navbar .list ul{
+display: flex;
+justify-content: space-between;
+list-style: none;
+gap: 10px;
+color: white;
+}
+.navbar .list ul li{
+    margin-right: 20px;
+    
+}
+
+
+.search{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 190px;
+    left: 15.2%;
+}
+.search > div{
+    display: flex;
+    justify-content: space-between;
+}
+.search > div input{
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px;
+}
+.search > div button{
+    border: 1px solid #F07987;
+    color: white;
+    background-color: #F07987;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.search > div select{
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px;
+    color: gray;
+}
+.jobsContainer{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin:auto;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    align-items: flex-start;
+}
+.jobs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 10px;
+}
+
+.jobs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.jobs .image{
+    width: 22%;
+}
+.jobs .image img{
+    border-radius: 10px;
+    width: 100px;
+    height: 110px;
+  
+}
+.jobs .disc{
+    width: 65%;
+    margin-top: 10px;
+
+}
+.jobs .disc h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.jobs .disc button{
+   
+    padding: 10px;
+    color: #F07987;
+    border: 1px solid #F07987;
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+  float: right;
+  margin-top: 10px;
+
+}
+.jobs img{
+ width: 100%;
+}
+
+.jobs .disc p{
+    max-height: 63px;
+    overflow: hidden;
+}
